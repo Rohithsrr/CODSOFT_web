@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Landing Page</title>
+  <link rel="stylesheet" href="landing page.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to Creative Landing Page</h1>
+      <p>Your one-stop solution for modern web designs</p>
+      <button onclick="scrollToSection('about')">Learn More</button>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <img src="https://th.bing.com/th?id=OIP.dNCY1RJe1bOVho6ODEKKoQHaDt&w=350&h=175&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2/200" alt="Company Image" ondblclick="openImage(this.src)">
+      <p>We are a leading web design company with a focus on creating beautiful and functional websites. Our team of experts is dedicated to delivering the best user experience for your customers. We specialize in various domains, including e-commerce, portfolio websites, and corporate sites.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service">
+        <img src="data:image/jpeg;base64,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" alt="Web Design">
+        <h3>Web Design</h3>
+        <p>Crafting visually stunning and user-friendly websites that captivate and convert visitors.</p>
+      </div>
+      <div class="service"> 
+        <img src="https://image.freepik.com/free-vector/concept-seo-search-engine-optimization_34708-90.jpg?w=2000"   alt="SEO Optimization">
+        <h3>SEO Optimization</h3>
+        <p>Boosting your website's visibility on search engines through effective SEO strategies.</p>
+      </div>
+      <div class="service">
+        <img src="https://th.bing.com/th?id=OIP.Pje2VNi7rRwUX-mhl_KqhgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2/150" alt="eCommerce Solutions">
+        <h3>eCommerce Solutions</h3>
+        <p>Providing robust and scalable eCommerce platforms to enhance your online business.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.J9S2jhd_wD1mAPYLQYEiZQHaFp?rs=1&pid=ImgDetMain" alt="Project Image">
+        <h3>Weather App</h3>
+        <p>A real-time weather app using the OpenWeather API, providing accurate weather updates for any city.</p>
+      </div>
+      <div class="project-item">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.OmaA0jvBkaqAzrGsBTG1BAHaGf?w=202&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Project Image">
+        <h3>Turtle Animation</h3>
+        <p>An engaging turtle animation created using Python's Turtle graphics module.</p>
+      </div>
+      <div class="project-item">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.FK2bE5k5mUOQWNCnvFGZfQHaEo?w=286&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Project Image">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website to showcase my work, skills, and contact information.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required><br>
+        <input type="email" id="email" placeholder="Your Email" required> <br>
+        <textarea id="message" placeholder="Your Message" required></textarea><br>
+        <button type="submit">Send Message</button><br>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Rohith. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="landing page.js"></script>
+</body>
+</html>
